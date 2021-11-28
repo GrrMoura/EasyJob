@@ -1,0 +1,110 @@
+﻿@model EasyJob.AppMVC.ViewModel.JobViewModel
+
+@{
+    ViewData["Title"] = "Criando Vaga";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Criando</h1>
+
+<h4>Job</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinSalaryPerHour" class="control-label"></label>
+                <input asp-for="MinSalaryPerHour" class="form-control" />
+                <span asp-validation-for="MinSalaryPerHour" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxSalaryPerHour" class="control-label"></label>
+                <input asp-for="MaxSalaryPerHour" class="form-control" />
+                <span asp-validation-for="MaxSalaryPerHour" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HourPerWeek" class="control-label"></label>
+                <input asp-for="HourPerWeek" class="form-control" />
+                <span asp-validation-for="HourPerWeek" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="WeeklySalaryPayment" /> @Html.DisplayNameFor(model => model.WeeklySalaryPayment)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="BiWeeklySalaryPayment" /> @Html.DisplayNameFor(model => model.BiWeeklySalaryPayment)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="MonthlyPayment" /> @Html.DisplayNameFor(model => model.MonthlyPayment)
+                </label>
+            </div>
+
+            <h1>Requisítos</h1>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NeedExp" /> @Html.DisplayNameFor(model => model.NeedExp)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NeedCar" /> @Html.DisplayNameFor(model => model.NeedCar)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NeedTools" /> @Html.DisplayNameFor(model => model.NeedTools)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Ride" /> @Html.DisplayNameFor(model => model.Ride)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adress.City" class="control-label"></label>
+                <input asp-for="Adress.City" class="form-control" />
+                <span asp-validation-for="Adress.City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Adress.State" class="control-label"></label>
+                <input asp-for="Adress.State" class="form-control" />
+                <span asp-validation-for="Adress.State" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Adress.Country" class="control-label"></label>
+                <input asp-for="Adress.Country" class="form-control" />
+                <span asp-validation-for="Adress.Country" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Note" class="control-label"></label>
+                <input asp-for="Note" class="form-control" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

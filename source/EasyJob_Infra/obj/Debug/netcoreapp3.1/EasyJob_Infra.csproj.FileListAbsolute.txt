@@ -1,0 +1,13 @@
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\bin\Debug\netcoreapp3.1\EasyJob_Infra.deps.json
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\bin\Debug\netcoreapp3.1\EasyJob_Infra.dll
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\bin\Debug\netcoreapp3.1\EasyJob_Infra.pdb
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\bin\Debug\netcoreapp3.1\EasyJob_Business.dll
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\bin\Debug\netcoreapp3.1\EasyJob_Business.pdb
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.csproj.AssemblyReference.cache
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.AssemblyInfoInputs.cache
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.AssemblyInfo.cs
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.csproj.CoreCompileInputs.cache
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.csproj.CopyComplete
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.dll
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Infra\obj\Debug\netcoreapp3.1\EasyJob_Infra.pdb

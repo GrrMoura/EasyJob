@@ -1,0 +1,9 @@
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\bin\Debug\netcoreapp3.1\EasyJob_Business.deps.json
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\bin\Debug\netcoreapp3.1\EasyJob_Business.dll
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\bin\Debug\netcoreapp3.1\EasyJob_Business.pdb
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\obj\Debug\netcoreapp3.1\EasyJob_Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\obj\Debug\netcoreapp3.1\EasyJob_Business.AssemblyInfoInputs.cache
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\obj\Debug\netcoreapp3.1\EasyJob_Business.AssemblyInfo.cs
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\obj\Debug\netcoreapp3.1\EasyJob_Business.csproj.CoreCompileInputs.cache
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\obj\Debug\netcoreapp3.1\EasyJob_Business.dll
+C:\Users\SSP\source\repos\EasyJobs\source\EasyJob_Business\obj\Debug\netcoreapp3.1\EasyJob_Business.pdb

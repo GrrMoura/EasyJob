@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cd153996-6d22-4cd5-bbdb-dfdcf1cf79bf": {
+      "ProjectGuid": "cd153996-6d22-4cd5-bbdb-dfdcf1cf79bf",
+      "DisplayName": "EasyJob.AppMVC",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "82bf81f8-00a5-48a5-919e-10ce8cbb60bc": {
+      "ProjectGuid": "82bf81f8-00a5-48a5-919e-10ce8cbb60bc",
+      "DisplayName": "EasyJob_Infra",
+      "ColorIndex": 1
+    },
+    "4910c1dd-101d-4b81-975a-2c6e8c4763ce": {
+      "ProjectGuid": "4910c1dd-101d-4b81-975a-2c6e8c4763ce",
+      "DisplayName": "EasyJob_Business",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
