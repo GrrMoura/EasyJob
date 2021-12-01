@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JJs9X0aAHRfAJxWTkiZjdBIZl1X2Yk5EGB2QiFH/K5ak6EGP60uZINxemwVJXWPGx61SwC4oPw9C7jQL91JISg==",
+  "dgSpecHash": "Oih9zWadmYeD90ARjxdb6tr6a7IAab6o7NUpRGRFY1eFhCaaaHV/efdb/1ylPptDzHgvuVKJZtpmeoM6BTnZzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\geibi\\Downloads\\Rocha-20211127T140805Z-001\\Rocha\\source\\EasyJob.AppMVC\\EasyJob.AppMVC.csproj",
+  "projectFilePath": "C:\\Repositorios\\Rocha\\source\\EasyJob.AppMVC\\EasyJob.AppMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geibi\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\geibi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

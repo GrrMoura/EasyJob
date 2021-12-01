@@ -1,17 +1,18 @@
-﻿using System;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using EasyJob_Business.Models.Addresses;
+﻿using EasyJob_Business.Models.Addresses;
 using EasyJob_Business.Models.Sectors;
 using EasyJob_Business.Models.Subsectors;
 using EasyJob_Business.Models.Users;
 using EasyJob_Business.Models.Vacancies.Jobs;
 using EasyJob_Infra.Data.Config;
+using EasyJob_Infra.Data.Config.StatesAndCities;
 using EasyJobs_Infra.Data.Config;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace EasyJob_Infra.Data.DbAplications
 {
@@ -36,6 +37,9 @@ namespace EasyJob_Infra.Data.DbAplications
             modelBuilder.ApplyConfiguration(new UserConfig());
             modelBuilder.ApplyConfiguration(new SectorConfig());
             modelBuilder.ApplyConfiguration(new SubsectorConfig());
+            modelBuilder.ApplyConfiguration(new US_CityConfig());
+            modelBuilder.ApplyConfiguration(new US_StateConfig());
+
 
             modelBuilder.Entity<User>().HasQueryFilter(p=>p.Active==true); // para pegar apenas os ativos
             modelBuilder.Entity<Job>().HasQueryFilter(p => p.Active == true);

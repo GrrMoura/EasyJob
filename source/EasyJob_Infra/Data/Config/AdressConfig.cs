@@ -15,15 +15,15 @@ namespace EasyJobs_Infra.Data.Config
             builder.HasKey(a => a.Id);
 
             builder.Property(a => a.Country)
-                .HasMaxLength(100)
+                .HasMaxLength(50)
                 .IsRequired();
 
             builder.Property(a => a.State)
-                .HasMaxLength(100)
+                .HasMaxLength(50)
                 .IsRequired();
 
             builder.Property(a => a.City)
-                 .HasMaxLength(100)
+                 .HasMaxLength(50)
                 .IsRequired();
 
             

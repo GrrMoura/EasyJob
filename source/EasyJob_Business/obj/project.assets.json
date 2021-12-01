@@ -733,11 +733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\geibi\\Downloads\\Rocha-20211127T140805Z-001\\Rocha\\source\\EasyJob_Business\\EasyJob_Business.csproj",
+      "projectUniqueName": "C:\\Repositorios\\Rocha\\source\\EasyJob_Business\\EasyJob_Business.csproj",
       "projectName": "EasyJob_Business",
-      "projectPath": "C:\\Users\\geibi\\Downloads\\Rocha-20211127T140805Z-001\\Rocha\\source\\EasyJob_Business\\EasyJob_Business.csproj",
+      "projectPath": "C:\\Repositorios\\Rocha\\source\\EasyJob_Business\\EasyJob_Business.csproj",
       "packagesPath": "C:\\Users\\geibi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\geibi\\Downloads\\Rocha-20211127T140805Z-001\\Rocha\\source\\EasyJob_Business\\obj\\",
+      "outputPath": "C:\\Repositorios\\Rocha\\source\\EasyJob_Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

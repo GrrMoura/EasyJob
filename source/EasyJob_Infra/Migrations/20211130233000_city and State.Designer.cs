@@ -4,6 +4,7 @@ using EasyJob_Infra.Data.DbAplications;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,16 +12,17 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EasyJob_Infra.Migrations
 {
     [DbContext(typeof(DbApplication))]
-    partial class DbApplicationModelSnapshot : ModelSnapshot
+    [Migration("20211130233000_city and State")]
+    partial class cityandState
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "6.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder,(int)1L, 1);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, (int)1L, 1);
 
             modelBuilder.Entity("EasyJob_Business.Models.Addresses.Adress", b =>
                 {
@@ -87,7 +89,7 @@ namespace EasyJob_Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"),(int)1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), (int)1L, 1);
 
                     b.Property<string>("CityName")
                         .IsRequired()
@@ -97,18 +99,7 @@ namespace EasyJob_Infra.Migrations
                     b.Property<int>("IdState")
                         .HasColumnType("int");
 
-                    b.Property<int?>("US_StateId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("aidi")
-                        .HasColumnType("int");
-
-                    b.Property<int>("aidiState")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("US_StateId");
 
                     b.ToTable("US_Cities", (string)null);
                 });
@@ -119,7 +110,7 @@ namespace EasyJob_Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"),(int)1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), (int)1L, 1);
 
                     b.Property<string>("StateCode")
                         .IsRequired()
@@ -130,9 +121,6 @@ namespace EasyJob_Infra.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<int>("aidi")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -326,7 +314,7 @@ namespace EasyJob_Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"),(int)1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), (int)1L, 1);
 
                     b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
@@ -416,7 +404,7 @@ namespace EasyJob_Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"),(int)1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), (int)1L, 1);
 
                     b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
@@ -510,13 +498,6 @@ namespace EasyJob_Infra.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("EasyJob_Business.Models.StatesAndCities.US_City", b =>
-                {
-                    b.HasOne("EasyJob_Business.Models.StatesAndCities.US_State", null)
-                        .WithMany("Cities")
-                        .HasForeignKey("US_StateId");
-                });
-
             modelBuilder.Entity("EasyJob_Business.Models.Subsectors.Subsector", b =>
                 {
                     b.HasOne("EasyJob_Business.Models.Vacancies.Jobs.Job", null)
@@ -595,11 +576,6 @@ namespace EasyJob_Infra.Migrations
             modelBuilder.Entity("EasyJob_Business.Models.Sectors.Sector", b =>
                 {
                     b.Navigation("Subsector");
-                });
-
-            modelBuilder.Entity("EasyJob_Business.Models.StatesAndCities.US_State", b =>
-                {
-                    b.Navigation("Cities");
                 });
 
             modelBuilder.Entity("EasyJob_Business.Models.Users.User", b =>

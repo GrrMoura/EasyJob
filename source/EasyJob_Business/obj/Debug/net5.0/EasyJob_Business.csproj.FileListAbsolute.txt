@@ -94,3 +94,15 @@ C:\Users\geibi\Downloads\Rocha-20211127T140805Z-001\Rocha\source\EasyJob_Busines
 C:\Users\geibi\Downloads\Rocha-20211127T140805Z-001\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.dll
 C:\Users\geibi\Downloads\Rocha-20211127T140805Z-001\Rocha\source\EasyJob_Business\obj\Debug\net5.0\ref\EasyJob_Business.dll
 C:\Users\geibi\Downloads\Rocha-20211127T140805Z-001\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.pdb
+C:\Repositorios\Rocha\source\EasyJob_Business\bin\Debug\net5.0\EasyJob_Business.deps.json
+C:\Repositorios\Rocha\source\EasyJob_Business\bin\Debug\net5.0\EasyJob_Business.dll
+C:\Repositorios\Rocha\source\EasyJob_Business\bin\Debug\net5.0\ref\EasyJob_Business.dll
+C:\Repositorios\Rocha\source\EasyJob_Business\bin\Debug\net5.0\EasyJob_Business.pdb
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.csproj.AssemblyReference.cache
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.AssemblyInfoInputs.cache
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.AssemblyInfo.cs
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.csproj.CoreCompileInputs.cache
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.dll
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\ref\EasyJob_Business.dll
+C:\Repositorios\Rocha\source\EasyJob_Business\obj\Debug\net5.0\EasyJob_Business.pdb

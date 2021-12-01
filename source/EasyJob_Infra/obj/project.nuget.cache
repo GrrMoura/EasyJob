@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MXo+jAlS3XDX4BXwhq/Yfr6DVPGFRlF+8C9nQGTEbywzM2UVocPk9h13+2Xo+C0/mDaEUGVXPOAWCvTHZJgf8Q==",
+  "dgSpecHash": "FkuT5EDoIZklHEVn9dg0cdhqbFoVESdX9wturpSZX5y1MTX9s7YZS5gQZPBqJPIYZAfmuzkV21ffRayurs4FaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\geibi\\Downloads\\Rocha-20211127T140805Z-001\\Rocha\\source\\EasyJob_Infra\\EasyJob_Infra.csproj",
+  "projectFilePath": "C:\\Repositorios\\Rocha\\source\\EasyJob_Infra\\EasyJob_Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geibi\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\geibi\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
